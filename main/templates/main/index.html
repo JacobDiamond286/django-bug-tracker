@@ -1,6 +1,29 @@
 {% extends "main/layout.html" %}
 
 {% block body %}
-<h1>This Is A Home Page</h1>
 <a href="{% url 'main:login' %}">Login</a>
+
+<h1>Project Title</h1>
+<table>
+  <h2>Incoming</h2>
+  <tr>
+    <th>Bug</th>
+    <th>Reporter</th>
+    <th>Status</th>
+    <th>Priority</th>
+    <th>Last Updated</th>
+    <th>Developer</th>
+  </tr>
+</table>
+<table>
+  <h2>Backlog</h2>
+  <tr>
+    <th>Bug</th>
+    <th>Reporter</th>
+    <th>Status</th>
+    <th>Priority</th>
+    <th>Last Updated</th>
+    <th>Developer</th>
+  </tr>
+</table>
 {% endblock %}
