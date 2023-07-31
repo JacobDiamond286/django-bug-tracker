@@ -23,7 +23,9 @@ def index(request):
             return redirect('index')
     else:
         return render(request, 'main/index.html', {})
-    
+
+# Logout User
+
 def logout_user(request):
     logout(request)
     messages.success(request, "You have been logged out.")
