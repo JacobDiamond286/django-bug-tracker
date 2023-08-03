@@ -31,6 +31,8 @@ def logout_user(request):
     messages.success(request, "You have been logged out.")
     return redirect('index')
 
+#Register User
+
 def register_user(request):
     if request.method == "POST":
         form = SignUpForm(request.POST)
