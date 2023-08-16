@@ -16,6 +16,8 @@
 <h1> Register </h1>
 <br/>
 
+<!-- register form -->
+
 <form method="POST" action="{% url 'index' %}">
   {% csrf_token %}
 	{% if form.errors %}
