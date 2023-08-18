@@ -51,7 +51,7 @@ def register_user(request):
     
     return render(request, 'main/register.html', {'form':form})
 
-
+# Team URL
 
 def team(request):
     return render(request, "main/team.html")
