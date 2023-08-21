@@ -1,5 +1,7 @@
 import mysql.connector
 
+# Data Base
+
 dataBase = mysql.connector.connect(
     host = 'localhost',
     user = 'root',
